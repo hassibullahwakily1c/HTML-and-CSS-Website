@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>John | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal portfolio website for John, HTML and CSS course final assignment." />
+    <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            <div class="logo">John<span>Portfolio</span></div>
+            <nav class="main-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#skills">Skills</a>
+                <a href="#github">GitHub</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <div class="wrapper hero-content">
+                <div class="hero-text">
+                    <h1>Hello, I'm John</h1>
+                    <p class="tagline">
+                        Aspiring web developer and lifelong learner. This portfolio was created as my HTML &amp; CSS course final project.
+                    </p>
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                </div>
+                <div class="hero-image">
+                    <img class="lightbox-thumb" src="images/thumbs/profile-placeholder.png" data-large="images/large/profile-placeholder.png" alt="Profile illustration" />
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="wrapper">
+                <h2>About Me</h2>
+                <p>
+                    I am a student learning front-end web development with a focus on building clean and accessible
+                    web pages using HTML and CSS. This portfolio website shows some of the projects I completed during
+                    the course and gives a brief overview of my skills.
+                </p>
+                <p>
+                    My goal is to continue improving my skills and to build modern, responsive websites in future courses
+                    using JavaScript and other technologies.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="wrapper">
+                <h2>Projects</h2>
+                <p class="section-intro">
+                    Below are some of the projects I created while working through the HTML and CSS course.
+                </p>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <h3>Space Station Site</h3>
+                        <p>
+                            A fictional homepage for a space travel company. This project focused on layout, typography,
+                            and using images with CSS to create a simple landing page.
+                        </p>
+                        <ul class="project-tech">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                        <a href="#" class="project-link">View code on GitHub</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Movie Theater Site</h3>
+                        <p>
+                            A sample movie theater website styled with CSS, including a navigation bar, showtime listings,
+                            and a simple ticket information section.
+                        </p>
+                        <ul class="project-tech">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                        <a href="#" class="project-link">View code on GitHub</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Bootstrap Movie Library</h3>
+                        <p>
+                            A small project that experimented with Bootstrap components, including pill badges, buttons,
+                            and responsive grid layout.
+                        </p>
+                        <ul class="project-tech">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                        <a href="#" class="project-link">View code on GitHub</a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Personal Portfolio</h3>
+                        <p>
+                            The website you are viewing now. It brings together my course work into one place and
+                            introduces who I am as a developer.
+                        </p>
+                        <ul class="project-tech">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                        <a href="#home" class="project-link">Back to top</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="gallery" class="section gallery">
+            <div class="wrapper">
+                <h2>Gallery</h2>
+                <p class="section-intro">
+                    Click any thumbnail to open the lightbox and view the larger image.
+                </p>
+
+                <div class="gallery-row">
+                    <div class="gallery-column">
+                        <img class="lightbox-thumb" src="images/thumbs/photo1.png" data-large="images/large/photo1.png" alt="Profile">
+                    </div>
+                    <div class="gallery-column">
+                        <img class="lightbox-thumb" src="images/thumbs/photo2.png" data-large="images/large/photo2.png" alt="Project 1">
+                    </div>
+                    <div class="gallery-column">
+                        <img class="lightbox-thumb" src="images/thumbs/photo3.png" data-large="images/large/photo3.png" alt="Project 2">
+                    </div>
+                    <div class="gallery-column">
+                        <img class="lightbox-thumb" src="images/thumbs/photo4.png" data-large="images/large/photo4.png" alt="Project 3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="wrapper">
+                <h2>Skills</h2>
+                <ul class="skill-list">
+                    <li>Writing semantic HTML5</li>
+                    <li>Styling pages with CSS3</li>
+                    <li>Working with images and icons</li>
+                    <li>Creating simple page layouts</li>
+                    <li>Using Visual Studio Code</li>
+                    <li>Using Git and GitHub for version control</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="github" class="section github">
+            <div class="wrapper">
+                <h2>GitHub</h2>
+                <p>
+                    All of the HTML and CSS projects from this course are stored in my GitHub repositories. You can
+                    browse the code, review my commits, and follow my progress as I learn more about web development.
+                </p>
+                <a href="https://github.com/hassibullahwakily1c" class="btn secondary-btn">
+                    Visit my GitHub profile
+                </a>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="wrapper">
+                <h2>Contact</h2>
+                <p>
+                    If you would like to get in touch with me about my work or future opportunities, you can reach me
+                    using the details below.
+                </p>
+                <ul class="contact-list">
+                    <li><strong>Email:</strong> abc@xyz.com</li>
+                    <li><strong>Location:</strong> Toronto, Canada</li>
+                    <li><strong>GitHub:</strong> github.com/hassibullahwakily1c</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p>&copy; <span id="year">2025</span> John. HTML &amp; CSS Portfolio Project.</p>
+        </div>
+    </footer>
+    <script src="JS/one_page_website.js"></script>
+</body>
+</html>
